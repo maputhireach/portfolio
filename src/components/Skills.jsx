@@ -2,31 +2,30 @@ import React from 'react';
 
 const Skills = () => {
   const frontendSkills = [
-    { name: 'Angular', level: 60, icon: '🅰️' },
-    { name: 'Vue', level: 70, icon: '⚡' },
-    { name: 'React', level: 80, icon: '⚛️' },
-    { name: 'JavaScript', level: 80, icon: '📜' }
+    { name: 'Angular', level: 60 },
+    { name: 'Vue', level: 70 },
+    { name: 'React', level: 80 },
+    { name: 'JavaScript', level: 80 }
   ];
 
   const backendSkills = [
-    { name: 'Node.js', level: 80, icon: '🟢' },
-    { name: 'Supabase', level: 80, icon: '🔥' },
-    { name: 'MongoDB', level: 80, icon: '🍃' },
-    { name: 'SQL', level: 70, icon: '🗄️' }
+    { name: 'Node.js', level: 80 },
+    { name: 'Supabase', level: 80 },
+    { name: 'MongoDB', level: 80 },
+    { name: 'SQL', level: 70 }
   ];
 
   const otherSkills = [
-    { name: 'Git', level: 85, icon: '📦' },
-    { name: 'Docker', level: 70, icon: '🐳' },
-    { name: 'AWS', level: 65, icon: '☁️' },
-    { name: 'Linux', level: 75, icon: '🐧' }
+    { name: 'Git', level: 85 },
+    { name: 'UX/UI', level: 70 },
+    { name: 'Python', level: 65 },
+    { name: 'C#', level: 40 },
   ];
 
-  const SkillBar = ({ skill, level, icon }) => (
+  const SkillBar = ({ skill, level }) => (
     <div className="skill-bar-container">
       <div className="skill-info">
         <div className="skill-header">
-          <span className="skill-icon">{icon}</span>
           <span className="skill-name">{skill}</span>
         </div>
         <span className="skill-percentage">{level}%</span>
@@ -41,10 +40,9 @@ const Skills = () => {
     </div>
   );
 
-  const SkillCategory = ({ title, skills, icon }) => (
+  const SkillCategory = ({ title, skills }) => (
     <div className="skill-category">
       <div className="skill-category-header">
-        <span className="category-icon">{icon}</span>
         <h3>{title}</h3>
       </div>
       <div className="skill-list">
@@ -52,8 +50,7 @@ const Skills = () => {
           <SkillBar 
             key={index} 
             skill={skill.name} 
-            level={skill.level} 
-            icon={skill.icon}
+            level={skill.level}
           />
         ))}
       </div>
@@ -70,18 +67,15 @@ const Skills = () => {
         <div className="skills-grid">
           <SkillCategory 
             title="Frontend Development" 
-            skills={frontendSkills} 
-            icon="🎨"
+            skills={frontendSkills}
           />
           <SkillCategory 
             title="Backend Development" 
-            skills={backendSkills} 
-            icon="⚙️"
+            skills={backendSkills}
           />
           <SkillCategory 
             title="Other Skills" 
-            skills={otherSkills} 
-            icon="🛠️"
+            skills={otherSkills}
           />
         </div>
       </div>
