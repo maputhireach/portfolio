@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="hero-container">
         <div className="profile-picture-container">
           <img 
-            src="img/photo_2_2025-06-13_18-12-15.jpg" 
+            src="/images/photo_2_2025-06-13_18-12-15.jpg" 
             alt="Ma Puthireach" 
             className="profile-picture"
           />
