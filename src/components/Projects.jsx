@@ -8,7 +8,7 @@ const Projects = () => {
       id: 1,
       title: "E-Commerce Website",
       description: "A modern e-commerce platform built with React, featuring product listings, shopping cart, and user authentication.",
-      image: "/img/Screenshot 2025-06-14 162847.png",
+      image: "/images/Screenshot 2025-06-14 162847.png",
       demoLink: "https://maputhireach.github.io/e-commerce/",
       githubLink: "https://github.com/maputhireach/e-commerce",
       technologies: ["React", "CSS", "JavaScript", "HTML"]
