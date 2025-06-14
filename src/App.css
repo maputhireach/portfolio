@@ -87,10 +87,28 @@ body {
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
+  position: relative;
+  padding: 0.5rem 0;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: var(--light-text);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav-link:hover::after {
+  width: 100%;
 }
 
 .nav-link:hover {
-  color: var(--primary-color);
+  color: var(--light-text);
 }
 
 .hamburger {
@@ -154,8 +172,12 @@ body {
     font-weight: 600;
   }
 
+  .nav-link::after {
+    height: 3px;
+  }
+
   .nav-link:hover {
-    color: var(--primary-color);
+    color: var(--light-text);
   }
 }
 
