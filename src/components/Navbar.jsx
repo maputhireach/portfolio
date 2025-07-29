@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Navbar.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,6 +38,16 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a href="#contact" className="nav-link" onClick={closeMenu}>Contact</a>
+          </li>
+          <li className="nav-item">
+            <a 
+              href="/pdf/cv.pdf" 
+              className="nav-link cv-button" 
+              onClick={closeMenu}
+              download
+            >
+              Download CV
+            </a>
           </li>
         </ul>
       </div>
