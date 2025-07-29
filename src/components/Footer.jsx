@@ -11,7 +11,7 @@ const Footer = () => {
           <a href="https://www.instagram.com/mareach__/" className="social-link">Instragram</a>
         </div>
         <p className="copyright">
-          © {new Date().getFullYear()} Your Name. All rights reserved.
+          © {new Date().getFullYear()} Ma Puthireach. All rights reserved.
         </p>
       </div>
     </footer>
