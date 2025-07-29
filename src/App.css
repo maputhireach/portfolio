@@ -396,6 +396,22 @@ body {
   text-align: center;
 }
 
+.about-list {
+  list-style: disc inside;
+  color: var(--text-color);
+  margin: 1rem 0 0 0;
+  padding-left: 0;
+  text-align: left;
+}
+
+.about-sublist {
+  list-style: circle inside;
+  margin-left: 1.5rem;
+  color: var(--light-text);
+  font-size: 0.98em;
+  margin-bottom: 0.5rem;
+}
+
 /* Skills Section */
 .skills {
   width: 100%;
@@ -866,5 +882,10 @@ body {
 
   .project-image-container {
     height: 180px;
+  }
+
+  .about-list, .about-sublist {
+    text-align: left;
+    font-size: 1em;
   }
 }

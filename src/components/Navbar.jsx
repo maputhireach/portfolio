@@ -49,7 +49,6 @@ const Navbar = () => {
               Download CV
             </a>
             <span className="mobile-download-note">
-              On iPhone, tap and hold the button, then choose "Download Linked File".
             </span>
           </li>
         </ul>

@@ -12,11 +12,22 @@ const About = () => {
         <div className="about-details">
           <div className="about-item">
             <h3>Experience</h3>
-            <p>X years in web development</p>
+            <ul className="about-list">
+              <li>Built a variety of websites and web apps to sharpen my skills and explore different areas of development, including:</li>
+              <ul className="about-sublist">
+                <li>E-commerce websites with product listings, shopping carts, and login systems</li>
+                <li>Portfolio websites to showcase personal or client work</li>
+                <li>Online tools like calculators and converters</li>
+                <li>AI-based projects using web technologies combined with AI APIs or logic</li>
+              </ul>
+            </ul>
           </div>
           <div className="about-item">
             <h3>Education</h3>
-            <p>Degree in Computer Science</p>
+            <ul className="about-list">
+              <li>Bachelor’s in Management Information System (MIS), SETEC Institute (2024 - expected 2027)</li>
+              <li>Self-taught and online learning (YouTube, etc.)</li>
+            </ul>
           </div>
         </div>
       </div>
