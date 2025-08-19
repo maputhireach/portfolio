@@ -27,8 +27,9 @@ const About = () => {
             <ul className="about-list">
               <li>Bachelor’s in Management Information System (MIS), SETEC Institute (2024 - expected 2027)</li>
               <li>Self-taught and online learning (YouTube, etc.)</li>
+              <li>Frontend Development with React, Packt</li>
             </ul>
-          </div>
+          </div>  
         </div>
       </div>
     </section>
