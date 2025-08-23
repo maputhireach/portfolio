@@ -12,7 +12,7 @@ const Hero = () => {
           />
         </div>
         <h1>Welcome to My Portfolio</h1>
-        <p>I'm a passionate developer creating amazing web experiences</p>
+        <p>I build websites that are fast, accessible, and a fun to use.</p>
         <a href="#contact" className="cta-button">Get in Touch</a>
       </div>
     </section>

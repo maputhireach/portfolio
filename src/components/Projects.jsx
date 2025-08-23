@@ -4,7 +4,7 @@ const PROJECTS = [
   {
     id: 1,
     title: "E-Commerce Website",
-    description: "A modern e-commerce platform built with React, featuring product listings, shopping cart, and user authentication.",
+    description: "A modern e-commerce platform built with React, featuring product listings, shopping cart, and user authentication with Backend.",
     image: "/images/ec.png",
     demoLink: "https://ecommerce-blond-phi-55.vercel.app/",
     githubLink: "https://github.com/maputhireach",
